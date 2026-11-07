@@ -2,6 +2,8 @@
 
 RPG de texto com um mestre de IA que roda **no seu próprio computador**, sem internet e sem conta. As regras são compatíveis com D&D 5e (SRD 5.2).
 
+> ⚠️ **Versão Alpha.** O jogo ainda está em desenvolvimento, e bugs e erros podem acontecer. Se algo der errado, o botão **Ver log** do executor mostra o que aconteceu.
+
 Este repositório guarda só os instaladores. Baixe a versão mais nova em **[Releases](../../releases/latest)**.
 
 ## Como instalar
@@ -13,6 +15,12 @@ Este repositório guarda só os instaladores. Baixe a versão mais nova em **[Re
 
 O jogo fica em `%LOCALAPPDATA%\Programs\RPG Local`, sem pedir administrador. Para remover, use **Configurações > Aplicativos > RPG Local > Desinstalar**.
 
+## Jogar
+
+Abra o **RPG Local** pelo Menu Iniciar ou pela Área de Trabalho. O executor liga o servidor do jogo e o mestre de IA e mostra quanto o jogo está usando da máquina: a VRAM da placa de vídeo (e quanto dela o modelo do mestre ocupa), o processamento e o uso da placa. A VRAM e o uso da placa aparecem só em placas NVIDIA.
+
+Clique em **Abrir o jogo**: ele abre numa janela própria, como um programa, sem abas nem barra de endereço (pelo Edge ou pelo Chrome). Fechar o executor encerra o jogo.
+
 ## Atualizar
 
 Abra o **RPG Local** e clique em **Buscar atualizações**. O executor baixa a versão nova deste repositório, confere o arquivo e reinicia sozinho. Suas campanhas não são apagadas.
@@ -20,7 +28,7 @@ Abra o **RPG Local** e clique em **Buscar atualizações**. O executor baixa a v
 ## Requisitos
 
 - Windows 10 ou 11, 64 bits.
-- Placa de vídeo com 8 GB de memória ou mais é o recomendado. Com menos, o assistente sugere um modelo menor, e o jogo fica mais lento.
+- Placa de vídeo com 8 GB de memória ou mais é o recomendado. Dependendo do modelo de IA escolhido, o mestre pode usar bastante VRAM para narrar a história. Com menos, o assistente sugere um modelo menor, e o jogo fica mais lento.
 - Cerca de 200 MB para o jogo e mais alguns GB para o modelo do mestre.
 
 ## Créditos e licenças
