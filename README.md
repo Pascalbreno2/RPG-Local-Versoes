@@ -30,6 +30,7 @@ Abra o **RPG Local** e clique em **Buscar atualizações**. O executor baixa a v
 - Windows 10 ou 11, 64 bits.
 - Placa de vídeo com 8 GB de memória ou mais é o recomendado. Dependendo do modelo de IA escolhido, o mestre pode usar bastante VRAM para narrar a história. Com menos, o assistente sugere um modelo menor, e o jogo fica mais lento.
 - Cerca de 200 MB para o jogo e mais alguns GB para o modelo do mestre.
+- Notebook com duas placas de vídeo: o mestre usa só a dedicada. Em **Ajustes > Placa de vídeo** dá para escolher qual placa NVIDIA usar e trocar o modo para **Vulkan**. Se o mestre der "CUDA error", escolha Vulkan; o assistente de instalação já faz essa troca sozinho (a partir da versão 1.4.0).
 
 ## Créditos e licenças
 
